@@ -1,9 +1,32 @@
+/* Reset CSS */
+* {
+    /* Margem = Externa */
+    margin: 0;
 
+}
 
 body {
     /* Cor Fundo  */
-    background-color:#000000 ;
+    background-color:#3e60db ;
 
     /* Cor textos */
     color: #fff;
+}
+
+/* seletor para os <A> */
+a {
+ text-decoration:none ;
+ color: #fff;
+} 
+
+
+/* HEADER = Cabeçalho */
+header {
+    /* ROW Linha Horizontal */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7f89f3;
+    /* Largura ou Comprimento */
+    width:100%;
 }
