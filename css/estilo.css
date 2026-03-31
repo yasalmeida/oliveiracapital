@@ -40,3 +40,31 @@ header {
     gap: 1rem; /* um rem */
 }
 
+
+
+/*Tag NAV*/
+.menu-desktop {
+    display: nome; 
+}
+
+/* Daqui pra cima Versão Mobile */
+
+/* Responsivo */ 
+/* Serve para as telas Maiores */
+
+/* Telas Maiores 768px*/
+@media (min-width: 768px){ 
+  header {
+    /* espaço inteiro */
+    padding: 1rem 6rem;
+    justify-content: ;
+    gap: ;
+  }
+
+
+    /* NAV */
+    .menu-desktop {
+         display: flex;
+    }
+}
+
